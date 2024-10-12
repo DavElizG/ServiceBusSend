@@ -5,6 +5,10 @@ VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBusSend", "ServiceBusSend.csproj", "{6F7E7963-3FFA-4699-B699-AFA9B01EF978}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAcces", "..\DataAcces\DataAcces.csproj", "{6429DF20-3469-4BEA-AEF6-17607340419A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "..\Services\Services.csproj", "{D5F195FE-84C5-434E-BA2E-766571F6A211}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{6F7E7963-3FFA-4699-B699-AFA9B01EF978}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F7E7963-3FFA-4699-B699-AFA9B01EF978}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F7E7963-3FFA-4699-B699-AFA9B01EF978}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6429DF20-3469-4BEA-AEF6-17607340419A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6429DF20-3469-4BEA-AEF6-17607340419A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6429DF20-3469-4BEA-AEF6-17607340419A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6429DF20-3469-4BEA-AEF6-17607340419A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5F195FE-84C5-434E-BA2E-766571F6A211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5F195FE-84C5-434E-BA2E-766571F6A211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5F195FE-84C5-434E-BA2E-766571F6A211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5F195FE-84C5-434E-BA2E-766571F6A211}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
