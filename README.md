@@ -50,4 +50,3 @@ Feel free to submit issues and pull requests for any improvements or bug fixes.
 
 ## License
 This project is licensed under the MIT License.
-```
