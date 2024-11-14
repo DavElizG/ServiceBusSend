@@ -1,4 +1,7 @@
-## Send Service Bus
+
+```markdown
+# ServiceBusSend
+
 ## Overview
 ServiceBusSend is a C# project designed to demonstrate how to send messages to an Azure Service Bus queue. Azure Service Bus is a fully managed enterprise message broker that facilitates the transfer of data between applications and services.
 
@@ -12,29 +15,41 @@ ServiceBusSend is a C# project designed to demonstrate how to send messages to a
    ```sh
    git clone https://github.com/DavElizG/ServiceBusSend.git
    cd ServiceBusSend
-Install the required NuGet packages:
+   ```
 
-dotnet add package Azure.Messaging.ServiceBus
-Configure your Azure Service Bus connection string in the appsettings.json file:
+2. Install the required NuGet packages:
+   ```sh
+   dotnet add package Azure.Messaging.ServiceBus
+   ```
 
-{
-  "ServiceBusConnectionString": "<Your-Service-Bus-Connection-String>",
-  "QueueName": "<Your-Queue-Name>"
-}
-Usage
-Build the project:
+3. Configure your Azure Service Bus connection string in the `appsettings.json` file:
+   ```json
+   {
+     "ServiceBusConnectionString": "<Your-Service-Bus-Connection-String>",
+     "QueueName": "<Your-Queue-Name>"
+   }
+   ```
 
-dotnet build
-Run the project:
+## Usage
+1. Build the project:
+   ```sh
+   dotnet build
+   ```
 
-dotnet run
-The application will send a message to the specified Azure Service Bus queue.
+2. Run the project:
+   ```sh
+   dotnet run
+   ```
 
-Code Overview
-Program.cs: The main entry point of the application.
-ServiceBusSender.cs: Contains the logic for sending messages to the Azure Service Bus queue.
-Contributing
+3. The application will send a message to the specified Azure Service Bus queue.
+
+## Code Overview
+- `Program.cs`: The main entry point of the application.
+- `ServiceBusSender.cs`: Contains the logic for sending messages to the Azure Service Bus queue.
+
+## Contributing
 Feel free to submit issues and pull requests for any improvements or bug fixes.
 
-License
+## License
 This project is licensed under the MIT License.
+```
